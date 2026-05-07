@@ -123,7 +123,7 @@ const ARTICLES = [
 const STUDIO_ITEMS = [
   {n:'I', cat:'CANON', title:'worn faded', body:'Muted neons. Analog grain. Dissolving silhouettes. Kintsugi cracks. Impressionistic only, never photorealistic. An aesthetic system: rules locked, outputs varied.'},
   {n:'II', cat:'CHARACTER', title:'paper hands herbert', body:'The down bad bear. Hope, loss, timing, humor, presence. A daily practice in five-word systems. Character bible locked: every output reflects the constitution.'},
-  {n:'III', cat:'OTHER', title:'sundry pursuits', body:'Beekeeper. Brewer. Martial artist. Comic collector. Weather Alpha trading systems. A father-son app called Dingus HQ. The framework lives across surfaces.'},
+  {n:'III', cat:'OTHER', title:'sundry pursuits', body:'Beekeeper. Brewer. Comic collector. Weather Alpha trading systems. A father-son app called Dingus HQ. The framework lives across surfaces.'},
 ]
 
 const CREDS = [
