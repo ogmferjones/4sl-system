@@ -122,9 +122,8 @@ const ARTICLES = [
 
 const STUDIO_ITEMS = [
   {n:'I', cat:'CANON', title:'worn faded', body:'Muted neons. Analog grain. Dissolving silhouettes. Kintsugi cracks. Impressionistic only, never photorealistic. An aesthetic system: rules locked, outputs varied.'},
-  {n:'II', cat:'COLLECTION', title:'soft gods', body:'Sixty-nine worn bears. One master. A trait system layered over a fixed identity — the ceo problem in plush form. Demonstrates the structure principle.'},
-  {n:'III', cat:'CHARACTER', title:'paper hands herbert', body:'The down bad bear. Hope, loss, timing, humor, presence. A daily practice in five-word systems. Character bible locked: every output reflects the constitution.'},
-  {n:'IV', cat:'OTHER', title:'sundry pursuits', body:'Beekeeper. Brewer. Martial artist. Comic collector. Weather Alpha trading systems. A father-son app called Dingus HQ. The framework lives across surfaces.'},
+  {n:'II', cat:'CHARACTER', title:'paper hands herbert', body:'The down bad bear. Hope, loss, timing, humor, presence. A daily practice in five-word systems. Character bible locked: every output reflects the constitution.'},
+  {n:'III', cat:'OTHER', title:'sundry pursuits', body:'Beekeeper. Brewer. Martial artist. Comic collector. Weather Alpha trading systems. A father-son app called Dingus HQ. The framework lives across surfaces.'},
 ]
 
 const CREDS = [
@@ -847,12 +846,11 @@ const BroadsheetStudio = () => (
     </BSection>
     <div style={{maxWidth: 920, margin:'0 auto', padding:'0 32px'}}><BRule type="double"/></div>
     <BSection style={{paddingTop: 40, paddingBottom: 80}}>
-      <div style={{display:'grid', gridTemplateColumns:'repeat(2, 1fr)', gap: 0, border:`1px solid ${B.rule}`}}>
+      <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap: 0, border:`1px solid ${B.rule}`}}>
         {STUDIO_ITEMS.map((s, i) => (
           <div key={i} style={{
             padding: 32,
-            borderRight: i % 2 === 0 ? `1px solid ${B.rule}` : 'none',
-            borderBottom: i < 2 ? `1px solid ${B.rule}` : 'none',
+            borderRight: i < 2 ? `1px solid ${B.rule}` : 'none',
           }}>
             <div style={{display:'flex', alignItems:'baseline', gap: 16, marginBottom: 12}}>
               <BSC color={B.red} style={{fontSize: 12}}>{s.n}.</BSC>
